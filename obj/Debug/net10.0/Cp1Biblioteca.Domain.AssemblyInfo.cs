@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Cp1Biblioteca")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Cp1Biblioteca.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d79ba018fc98c8204e7b6370063b79e10cbecd69")]
-[assembly: System.Reflection.AssemblyProductAttribute("Cp1Biblioteca")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Cp1Biblioteca")]
+[assembly: System.Reflection.AssemblyProductAttribute("Cp1Biblioteca.Domain")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Cp1Biblioteca.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

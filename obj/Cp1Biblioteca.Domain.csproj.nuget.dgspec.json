@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shhit\\Desktop\\fiap\\.net\\CP1-.NET\\Cp1Biblioteca.csproj": {}
+    "C:\\Users\\shhit\\Desktop\\fiap\\.net\\CP1-.NET\\Cp1Biblioteca.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shhit\\Desktop\\fiap\\.net\\CP1-.NET\\Cp1Biblioteca.csproj": {
+    "C:\\Users\\shhit\\Desktop\\fiap\\.net\\CP1-.NET\\Cp1Biblioteca.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shhit\\Desktop\\fiap\\.net\\CP1-.NET\\Cp1Biblioteca.csproj",
-        "projectName": "Cp1Biblioteca",
-        "projectPath": "C:\\Users\\shhit\\Desktop\\fiap\\.net\\CP1-.NET\\Cp1Biblioteca.csproj",
+        "projectUniqueName": "C:\\Users\\shhit\\Desktop\\fiap\\.net\\CP1-.NET\\Cp1Biblioteca.Domain.csproj",
+        "projectName": "Cp1Biblioteca.Domain",
+        "projectPath": "C:\\Users\\shhit\\Desktop\\fiap\\.net\\CP1-.NET\\Cp1Biblioteca.Domain.csproj",
         "packagesPath": "C:\\Users\\shhit\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\shhit\\Desktop\\fiap\\.net\\CP1-.NET\\obj\\",
         "projectStyle": "PackageReference",

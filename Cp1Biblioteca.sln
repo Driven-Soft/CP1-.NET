@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cp1Biblioteca", "Cp1Biblioteca.csproj", "{41417E03-FDFA-477A-9BD7-0A458A235516}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cp1Biblioteca.Domain", "Cp1Biblioteca.Domain.csproj", "{41417E03-FDFA-477A-9BD7-0A458A235516}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
