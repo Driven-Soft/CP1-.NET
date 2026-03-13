@@ -83,19 +83,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\shhit\\.nuget\\packages\\": {}
+    "C:\\Users\\felip\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\shhit\\Desktop\\fiap\\.net\\CP1-.NET\\Cp1Biblioteca.Domain.csproj",
+      "projectUniqueName": "C:\\Chalkboard\\NET\\CP1-.NET\\Cp1Biblioteca.Domain.csproj",
       "projectName": "Cp1Biblioteca.Domain",
-      "projectPath": "C:\\Users\\shhit\\Desktop\\fiap\\.net\\CP1-.NET\\Cp1Biblioteca.Domain.csproj",
-      "packagesPath": "C:\\Users\\shhit\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\shhit\\Desktop\\fiap\\.net\\CP1-.NET\\obj\\",
+      "projectPath": "C:\\Chalkboard\\NET\\CP1-.NET\\Cp1Biblioteca.Domain.csproj",
+      "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
+      "outputPath": "C:\\Chalkboard\\NET\\CP1-.NET\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\shhit\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\felip\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -149,7 +149,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\shhit\\.dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Users\\felip\\.dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
