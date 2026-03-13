@@ -1,4 +1,4 @@
-﻿## CP1 - .NET
+﻿# CP1 - .NET
 
 ### Integrantes do grupo
 
@@ -6,9 +6,13 @@
 - Max Hayashi Batista - RM563717
 - Henrique Cunha Torres - RM565119
 
+<hr/>
+
 ### Domínio escolhido
 
 - Biblioteca
+
+<hr/>
 
 ### Entidades modeladas
 
@@ -18,6 +22,8 @@
 - Author (Autores)
 - Publisher (Editoras)
 - Category (Categorias)
+
+<hr/>
 
 ### Resumo dos relacionamentos
 
