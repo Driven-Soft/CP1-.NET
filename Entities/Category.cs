@@ -6,6 +6,7 @@ public class Category : BaseEntity
 {
     public String Name { get; private set; }
     public String Description { get; private set; }
+    public List<Book> Books { get; private set; }
 
     public Category(String name, String description)
     {
