@@ -42,3 +42,9 @@
 - Book (N:N) Category
   - Um livro pode pertencer a várias categorias.
   - Uma categoria pode conter vários livros.
+
+<hr/>
+ 
+### Imagem do MER (disponível em docs/BibliotecaMER.png)
+<img width="1044" height="442" alt="image" src="https://github.com/user-attachments/assets/dab5f583-5920-492d-878a-47a09b7f0e5e" />
+
