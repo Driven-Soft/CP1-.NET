@@ -1,24 +1,38 @@
 ﻿## CP1 - .NET
-<hr/>
 
-### Modelo Entidade-Relacionamento (MER) e Criação do Projeto WebAPI (Biblioteca)
-* Felipe Bezerra Beatrici - RM564723
-* Max Hayashi Batista - RM563717
-* Henrique Cunha Torres - RM565119
+### Integrantes do grupo
 
+- Felipe Bezerra Beatrici - RM564723
+- Max Hayashi Batista - RM563717
+- Henrique Cunha Torres - RM565119
 
-<hr/>
+### Domínio escolhido
 
-## Descrição do Projeto
+- Biblioteca
 
-Este projeto representa a modelagem inicial de um **Sistema de Biblioteca**, desenvolvido como parte da atividade de **Modelo Entidade-Relacionamento (MER)** e criação de uma **estrutura inicial de WebAPI em .NET** seguindo os princípios de **Clean Architecture**.
+### Entidades modeladas
 
-O objetivo do trabalho foi identificar e modelar as principais entidades envolvidas no funcionamento de uma biblioteca, especialmente no controle de **livros e empréstimos realizados pelos usuários**. A partir dessa modelagem, as entidades foram representadas tanto no **diagrama MER** quanto no **código em C# dentro do projeto WebAPI**.
+- User (Usuários)
+- Loan (Empréstimos)
+- Book (Livros)
+- Author (Autores)
+- Publisher (Editoras)
+- Category (Categorias)
 
-O sistema modela entidades como **Livro, Usuário, Empréstimo, Autor e Categoria**, incluindo seus principais atributos e chaves primárias. Também foram definidos os relacionamentos entre essas entidades, indicando as **cardinalidades (1:1, 1:N, N:N)** e a **opcionalidade** entre elas.
+### Resumo dos relacionamentos
 
-Entre os principais relacionamentos, um **usuário pode realizar vários empréstimos**, enquanto cada empréstimo está associado a **um único usuário e a um único livro**. Além disso, **livros podem possuir um ou mais autores**, e também podem pertencer a **uma categoria específica**.
-
-O repositório contém apenas a **estrutura inicial da aplicação**, com as **entidades modeladas no código**, sem implementação de CRUD, controllers, banco de dados ou Entity Framework, conforme solicitado na atividade. O foco do projeto está exclusivamente na **modelagem conceitual do sistema e na organização inicial da aplicação**.
-
-<hr/>
+- User (1:N) Loan
+  - Um usuário pode ter zero ou mais empréstimos.
+  - Cada empréstimo pertence a um único usuário.
+- Book (1:1) Loan
+  - Um livro pode ter no máximo um empréstimo.
+  - Cada empréstimo pertence a um único livro.
+- Publisher (1:N) Book
+  - Uma editora pode publicar vários livros.
+  - Cada livro pertence a uma única editora.
+- Book (N:N) Author
+  - Um livro pode ter vários autores.
+  - Um autor pode estar em vários livros.
+- Book (N:N) Category
+  - Um livro pode pertencer a várias categorias.
+  - Uma categoria pode conter vários livros.

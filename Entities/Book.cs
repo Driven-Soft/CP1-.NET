@@ -9,7 +9,7 @@ public class Book : BaseEntity
 
     public int PublisherId { get; private set; }
     public Publisher Publisher { get; private set; }
-    public List<Loan>? Loans { get; private set; }
+    public Loan? Loan { get; private set; }
     public List<Author> Authors { get; private set; }
     public List<Category> Categories { get; private set; }
 
